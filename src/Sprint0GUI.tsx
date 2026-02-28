@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const SolitaireSetup: React.FC = () => {
   const [boardType, setBoardType] = useState('English');
   const [isRecording, setIsRecording] = useState(false);
