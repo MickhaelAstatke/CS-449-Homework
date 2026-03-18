@@ -2,7 +2,9 @@
   "devDependencies": {
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.0.0",
     "typescript": "^5.9.3",
+    "vite": "^7.0.0",
     "vitest": "^4.0.18"
   },
   "dependencies": {
@@ -11,11 +13,13 @@
   },
   "name": "cs-449-homework",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "vitest run",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -24,7 +28,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/MickhaelAstatke/CS-449-Homework/issues"
   },
