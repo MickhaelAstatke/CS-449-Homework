@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Sprint3GUI from './Sprint3GUI'
+import Sprint4GUI from './Sprint4GUI'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Sprint3GUI />
+    <Sprint4GUI />
   </React.StrictMode>,
-) 
+)
